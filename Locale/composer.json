@@ -1,0 +1,23 @@
+{
+    "name": "flaphl/locale-contracts",
+    "description": "Contracts for internationalization and localization interfaces pulled from Flaphl",
+    "license": "MIT",
+    "type": "library",
+    "keywords": ["flaphl", "contracts", "locale", "i18n", "l10n", "translation", "internationalization"],
+    "authors": [
+        {
+            "name": "Jade Phyressi",
+            "email": "jade@flaphl.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Flaphl\\Contracts\\Locale\\": ""
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": false
+}
