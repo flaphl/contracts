@@ -13,10 +13,16 @@
     "require": {
         "php": "^8.2"
     },
+    "require-dev": {
+        "phpunit/phpunit": "^10.5"
+    },
     "autoload": {
         "psr-4": {
             "Flaphl\\Contracts\\Locale\\": ""
-        }
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
     },
     "minimum-stability": "dev",
     "prefer-stable": false
